@@ -2,7 +2,8 @@ body {
    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300; 
-    margin: 0 
+    margin: 0;
+    background-color: white;
     
 }
 /*header stuff here*/
@@ -13,7 +14,15 @@ header {
 header h1 {
     margin: 0;
     color: #515A73;
+    
 }
+
+header h2 {
+    margin: 0;
+    color: #515A73;
+    
+}
+
 
 header p {
     margin: 0;
@@ -24,6 +33,11 @@ header p {
 /*nav stuff here*/
 nav {
     background-color: #ADC8D9;
+    list-style-type: none;
+    margin: 0;
+   
+     
+    
 }
 nav ul {
     
@@ -63,6 +77,8 @@ main h2 {
     color: #515A73;
     margin-bottom: .2rem;
     font-size: 1.7rem;
+   
+
 }
 
 main p {
@@ -73,7 +89,8 @@ main p {
 
 main ol {
     padding: .5rem 3vw;
-    background-color: #F2F0EB
+    background-color: #F2F0EB;
+    list-style-type: circle;
 }
 
 
@@ -82,21 +99,26 @@ main dl dt {
     font-weight: 700;
     
     
+    
 }
 main dl dd {
     color: #515A73;
-    font-size: .9rem
+    font-size: .9rem;
+    
     
 }
 
-main ul {
-    list-style-type: circle;
-}
+
+
 
 main ul li {
     line-height: 125%;
     margin-bottom: .5rem;
-    font-size: .9rem
+    font-size: .9rem;
+}
+
+ul {
+    list-style-type: circle;
 }
 
 main address {
@@ -104,8 +126,10 @@ main address {
     background-color: #ADC8D9;
     padding: .5rem;
     width: 12.5rem;
-    border: 1px solid #515A73;
+    border: 2px solid #515A73;
+    border-width: .5px solid #ADC8D9;
     border-radius: .5rem;
+    border-style: solid
 }
 
 main a {
@@ -126,6 +150,9 @@ footer {
     color: #515A73;
     padding: 1rem 0;
     font-size: .8rem;
+    border-style: solid;
+    border-width: 1px solid #ADC8D9;
+    border-radius: 10px;
     
 }
 
